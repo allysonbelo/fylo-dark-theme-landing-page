@@ -111,6 +111,27 @@ p {
     transition: all 0.2s ease-out;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.card img{
+    width: min(140px, 15vw);
+    margin-bottom: 20px;
+}
+
+.card h3{
+    opacity: .9;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 14px;
+}
 
 
 
