@@ -111,7 +111,7 @@ p {
     transition: all 0.2s ease-out;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,18 +119,48 @@ p {
     margin-bottom: 60px;
 }
 
-.card img{
+.card img {
     width: min(140px, 15vw);
     margin-bottom: 20px;
 }
 
-.card h3{
+.card h3 {
     opacity: .9;
     margin-bottom: 20px;
 }
 
-.card p{
+.card p {
     font-size: 14px;
+}
+
+.productive img {
+    width: 100%;
+}
+
+.productive h3{
+    font-size: min(40px, 4vw);
+    margin-bottom: 20px;
+}
+
+.productive p{
+    text-align: left;
+    font-size: 14px;
+}
+.link-arrow{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px ;
+    border-bottom: 1px solid var(--color-cyan);
+    
+}
+.link-arrow  a{
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--color-cyan);
+}
+.link-arrow img{
+    width: 10%;
 }
 
 
