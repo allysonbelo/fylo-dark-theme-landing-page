@@ -31,12 +31,18 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 */
+
+html{
+    overflow-x: hidden;
+}
+
 body {
     width: 100%;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     background-color: var(--color-dark-blue-main);
     color: var(--color-white);
+    
 }
 
 ul {
@@ -98,8 +104,17 @@ section {
     margin: 40px auto;
 }
 
+.intro h1 {
+    font-size: min(40px, 5vw);
+    width: 69%;
+}
+
+.intro p {
+    font-size: min(16px, 3vw);
+    width: 60%;
+}
+
 .tex-formate {
-    width: 420px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -408,6 +423,14 @@ footer a:hover {
         grid-template-areas:
             'column1 column2'
             'column3 column4';
+    }
+
+    .intro h1 {
+        width: 60%;
+    }
+
+    .intro p{
+        width: 32%;
     }
 
 
